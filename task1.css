@@ -1,0 +1,462 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+/* Style the navigation bar */
+.navbar {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out; /* Add transition for a smooth effect */
+}
+
+/* Add hover effect to navbar links */
+.navbar a:hover {
+    color: #00ff62; /* Change the text color on hover */
+}
+
+/* Add padding to the menu section to prevent overlap with the fixed navbar */
+.menu-section {
+    padding-top: 50px;
+}
+/* Make the navigation bar sticky */
+.menu-section {
+    position: sticky;
+    top: 0;
+    background-color: #f4f4f4;
+    z-index: 1000;
+}
+
+/* Style the header */
+.header {
+    background-image: url('cafe.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column; /* Change to column to stack items vertically */
+    align-items: center;
+    justify-content: center;
+    color: #060606;
+    text-align: center;
+    padding: 100px 0;
+}
+    /* Add this CSS to style the header text creatively */
+.header-title {
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    background-color: #e4ebea; /* Background color for highlight */
+    padding: 10px 20px;
+    border-radius: 5px; /* Rounded background */
+    color: #522c2c; /* Text color */
+    margin-bottom: 20px; /* Add margin at the bottom */
+    display: inline-block;
+    /* Center the title within the container */
+}
+
+/* Add hover effect for more interactivity */
+.header-title:hover {
+    background-color: #00ff62; /* Change the background color on hover */
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8); /* Enhance the text shadow on hover */
+    transform: scale(1.05); /* Slightly scale the text on hover */
+    transition: background-color 0.3s, text-shadow 0.3s, transform 0.3s; /* Add smooth transition */
+}
+
+
+.header-description {
+    font-size: 1.5rem;
+    color: #4e0404; /* Text color */
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 20px; /* Adjust the margin as needed */
+    background-color: #e1d4d4; /* Background color */
+    padding: 20px; /* Add padding for a visually pleasing look */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    line-height: 1.6; /* Adjust line height for better readability */
+}
+
+/* Style the menu section */
+.menu-section {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px 0;
+}
+
+/* Style the menu title */
+.menu-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 20px; /* Add top margin to prevent overlapping */
+}
+
+
+.menu-categories {
+    list-style-type: none;
+}
+
+/* Add margin to the "Indulge in Morning Delights" section */
+#breakfast {
+    margin-bottom: 20px; /* Adjust the margin as needed */
+}
+
+.menu-item {
+    display: inline;
+    margin: 0 20px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Style the menu categories */
+.menu-category {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.category-title {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 30px
+}
+
+.category-description {
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+/* Add this CSS to style the new sections */
+.follow-us-section,
+.contact-info-section {
+    background-color: #da8585;
+    padding: 50px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.follow-us-container,
+.contact-info-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.follow-us-item,
+.contact-info-item {
+    flex: 1;
+    max-width: 300px;
+}
+
+/* Style the social media icons */
+/* .social-icon {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-top: 10px;
+    width: 40px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+
+
+
+/* Add hover effect to the social media icons */
+.social-icon:hover {
+    background-color: #f8fafc;
+} */
+
+
+/* Add spacing between heading and content in contact info */
+.contact-info-item h3 {
+    margin-bottom: 10px;
+}
+
+/* Adjust the color of the heading in the contact info */
+.contact-info-item h3 {
+    color: #f8fafc;
+}
+
+/* Style the contact section */
+.contact-section {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 50px 0;
+}
+
+.contact-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-description {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.contact-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s; /* Add smooth transition for background and color changes */
+}
+
+/* Hover effect for the "Call Now" button */
+.contact-button:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+
+/* Add spacing between heading and content in contact info */
+.contact-info-item h3 {
+    margin-bottom: 10px;
+}
+
+/* Adjust the color of the heading in the contact info */
+.contact-info-item h3 {
+    color: #134271;
+}
+
+/* Style the footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-text {
+    font-size: 16px;
+}
+
+
+/* Adjust the space between menu categories */
+.menu-category {
+    text-align: center;
+    padding-top: 20px; /* Top padding for the first menu category */
+}
+
+/* Reduce the space between specific menu categories */
+.menu-category:not(:first-child) {
+    margin-top: -30px; /* Adjust the negative margin as needed */
+    padding-top: 30px; /* Add top padding to maintain space between items */
+}
+
+
+.category-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.menu-item {
+    text-align: center;
+}
+
+.menu-item-image {
+    max-width: 100%; /* Ensure images don't exceed their container */
+}
+
+.menu-item-details {
+    margin-top: 10px; /* Adjust spacing between image and details */
+    font-family: 'Arial', sans-serif; /* Change the font family */
+}
+/* Additional CSS for consistent image size and alignment */
+.menu-category {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.category-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.menu-item {
+    text-align: center;
+    width: 250px; /* Set a fixed width for each menu item */
+    margin-bottom: 20px; /* Add margin at the bottom for spacing */
+}
+
+.menu-item-image {
+    width: 100%; /* Ensure images take up the full width of the container */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 200px; /* Set a maximum height to control the image size */
+    border-radius: 8px; /* Add a slight border-radius for a cleaner look */
+}
+
+.menu-item-details {
+    margin-top: 10px;
+}
+
+.item-name {
+    font-size: 20px; /* Change the font size for item names */
+    color: #333; /* Change the text color */
+}
+
+.item-description {
+    font-size: 16px; /* Change the font size for item descriptions */
+    color: #555; /* Change the text color */
+}
+
+.item-price {
+    font-size: 18px; /* Change the font size for item prices */
+    color: #e44d26; /* Change the text color */
+    font-weight: bold; /* Add bold style to prices */
+}
+
+/* Add animation to the header title */
+.header-title {
+    animation: fadeInUp 1s ease-in-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Add hover effect to menu items */
+.menu-item:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Add animation to the footer text */
+.footer-text {
+    animation: fadeInUp 3s ease-in-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Updated CSS for Order Now button and Special Online Deals section */
+.order-section {
+    background-color: #da8585;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.order-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.order-button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #0f0a0a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out; /* Add transition for a smooth effect */
+}
+
+.order-button:hover {
+    background-color: #ddede4; /* Change the background color on hover */
+}
+
+.deals-text {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 20px; /* Add margin at the bottom */
+}
+
+.promo-code {
+    color: #ed3849;
+    font-weight: bold;
+}
+.social-icons{
+	padding:30px;
+	background-color:#00506b;
+  text-align: center;
+}
+.social-icons a{
+	color:#fff;
+  line-height:30px;
+  font-size:30px;
+  margin: 0 5px;
+  text-decoration:none;
+  
+}
+.social-icons a i{
+	line-height:40px;
+  font-size:40px;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1); 
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1); 
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(1);
+}
+.social-icons a:hover i{
+  box-shadow: 0px 0px 150px #000000;
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.5);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.5);   
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.5);
+  transition: all 200ms ease-in;
+  transform: scale(1.5);
+}
+.social-icons-title {
+
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 10px 0;
+
+}
